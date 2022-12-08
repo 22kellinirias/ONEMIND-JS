@@ -1,0 +1,57 @@
+.titulo{
+  background: -webkit-linear-gradient(rgb(18, 19, 18), rgb(34, 146, 127),rgb(196, 7, 7));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-align: center;
+ font-size: xx-large;
+}
+
+.principal,
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*
+  Colores de fondo del body
+*/
+
+.enojado {
+  background-color: red;
+}
+
+.tranquilo {
+  background-color: aqua;
+}
+
+.feliz {
+  background-color: yellow;
+}
+
+.triste {
+  background-color: blue;
+}
+
+/*
+  Colores de fondo de la seccion
+*/
+.enojado-s {
+  background-color: rgb(233, 73, 73);
+}
+
+.feliz-s {
+  background-color: rgb(179, 179, 48);
+}
+
+.feliz{
+  width: 5%;
+  height: 5%;
+  border-radius: 0%;
+}
+
+.enojado{
+  width: 5%;
+  
+}

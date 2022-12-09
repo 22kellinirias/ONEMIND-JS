@@ -8,8 +8,9 @@
     <!--Mi hija de JS-->
     <link rel="stylesheet" href="./assets/css/estilos.css" />
   </head>
+    <body>
   <header id="header">
-    <h1>¿Cómo te sientes hoy?</h1>
+    <h1 class="titulo">¿Cómo te sientes hoy?</h1>
   </header>
 
   <main id="main">
@@ -23,15 +24,14 @@
           placeholder="Cuentame como te sientes..."
           name="sentimiento"
         >
-
-        <div>
+        <div  id="contenedor-btns">
           <label for="emoji">
             Me siento...
           </label>
-          <button type="submit" id="feliz" ><img src="./assets/img/feliz.jpg"  class="feliz"></button>
-          <button type="submit" id="triste"><img src="./assets/img/triste.jpg" class="triste"></button>
-          <button type="submit" id="tranquilo"><img src="./assets/img/tranquilo.png" class="tranquilo"></button>
-          <button type="submit" id="enojado"><img src="./assets/img/enojado.jpg" class="enojado"></button>
+          <button type="submit" id="feliz" ><img src="./assets/img/feliz.jpg"  class="feliz">feliz</button>
+          <button type="submit" id="triste"><img src="./assets/img/triste.jpg" class="triste">triste</button>
+          <button type="submit" id="tranquilo"><img src="./assets/img/tranquilo.png" class="tranquilo">tranquilo</button>
+          <button type="submit" id="enojado"><img src="./assets/img/enojado.jpg" class="enojado">enojado</button>
         </div>
       </form>
 
@@ -40,5 +40,6 @@
 
   <!-- Mi hoja de JS -->
   <script src="./js/main.js" type="text/javascript"></script>
+ 
   </body>
 </html>

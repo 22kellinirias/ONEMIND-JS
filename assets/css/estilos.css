@@ -6,12 +6,16 @@
  font-size: xx-large;
 }
 
+.img1{
+  width: 120px;
+}
+
 .principal,
 .form {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /*
@@ -46,12 +50,23 @@
 }
 
 .feliz{
-  width: 5%;
-  height: 5%;
-  border-radius: 0%;
-}
-
-.enojado{
-  width: 5%;
+  width: 100px;
+  height: 100px;
   
 }
+.enojado{
+  width: 100px;
+  height: 100px
+}
+
+.triste{
+  width: 100px;
+  height: 100px
+}
+
+.tranquilo{
+  width: 100px;
+  height: 100px
+
+  
+ }
